@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyyLySzZsPkuIyMkuQ9DmmQAAAAACAAAAAAAQZgAAAAEAACAAAABA038Ye/1tGzJnv0DAIxhjTaOWCfvTZowh3zI06edNCQAAAAAOgAAAAAIAACAAAACWpwrNejD3tvW60ukH8w60aoyA7qCJ23NKjFVW/MEhnIAAAAB+EdHFDdUCED+/R0gcX9WexlbTv3dUKxMZ3unNoHd9a8g2D2nPUEy+03ACcDFZNLR+K9SATGwhXe+x5SnNzl8gEth/fIKMbGhXoziUB6kyr0I8v5AX24cmQKlEdldidUM/bHhhxxnxCOKcmJMyDOvOVnDzEZ5nD0mLc0ZmDkVWqUAAAACNyUzLrjGYqcWl3d6DhYO28OJsWpCBSS6fo/8jHVeN2rV6JFWaklB21wnAafWtIctRDbjRVcp2VMwgrn8h917u</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:employeemanagerdbserverdb.database.windows.net,1433%3bInitial Catalog=EmployeeManager_db%3bUser Id=ynguyen%40employeemanagerdbserverdb%3bPassword=Tt12356789%40</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="EmployeeManager.Models.AppDbContext">
+      <Value>Data Source=tcp:employeemanagerdbserverdb.database.windows.net,1433%3bInitial Catalog=EmployeeManager_db%3bUser Id=ynguyen%40employeemanagerdbserverdb%3bPassword=Tt12356789%40</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
